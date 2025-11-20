@@ -7,9 +7,13 @@
   font-size: var(--fs2);
 }
 
+.btn:hover {
+  background-color: var(--bg2);
+}
+
 .btn-primary {
   padding: 1rem 1.2rem;
-  border-radius: 19px;
+  border-radius: 10px;
   font-size: var(--fs2);
   border: none;
   color: var(--tcw);
@@ -20,4 +24,51 @@
 .btn-primary:hover,
 .btn-primary:active {
   background-color: transparent;
+  border: 1px solid var(--tcb);
+  color: var(--tcb);
+}
+
+/* nav buttons */
+.nav-btn-primary {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: var(--fs2);
+  border: none;
+  color: var(--tcw);
+  background-color: var(--bg2);
+  cursor: pointer;
+}
+
+.nav-btn-primary:hover {
+  color: var(--tcb);
+  background-color: transparent;
+  border: 1px solid var(--tcb);
+}
+
+.nav-btn-primary:active {
+  color: var(--tcw);
+  background-color: rebeccapurple;
+  border: 1px solid;
+}
+
+.nav-btn {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: var(--fs2);
+  border: none;
+  color: var(--tcb);
+
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  color: var(--tcb);
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.nav-btn:active {
+  color: var(--tcw);
+  background-color: var(--bg2);
+  border: 1px solid;
 }
