@@ -1,0 +1,14 @@
+/*  tab*/
+@media (min-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
