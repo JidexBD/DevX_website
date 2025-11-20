@@ -1,8 +1,35 @@
+/* mobile */
+.hero-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.hero-devx {
+  padding: 1rem 1.2rem;
+  border: 1px solid black;
+  border-radius: 19px;
+  font-size: var(--fs2);
+}
+
+.hero-header {
+  font-size: var(--fs4);
+  color: var(--hc);
+  letter-spacing: -2px;
+}
+
+.hero-p {
+  font-size: var(--fs2);
+  line-height: 1.5;
+}
+
 /*  tab*/
 @media (min-width: 768px) {
-  header {
-    padding: 1rem;
-  }
 }
 
 /* 1024 */

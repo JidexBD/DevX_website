@@ -1,10 +1,10 @@
 /* home page imports */
 @import url("/css/home/nav.css");
-@import url("/css/home/hero_section");
+@import url("/css/home/hero_section.css");
 
 /* header */
 header {
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 /*  tab*/

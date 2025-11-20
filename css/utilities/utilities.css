@@ -1,0 +1,23 @@
+/* button*/
+
+.btn {
+  padding: 1rem 1.2rem;
+  border: 1px solid black;
+  border-radius: 19px;
+  font-size: var(--fs2);
+}
+
+.btn-primary {
+  padding: 1rem 1.2rem;
+  border-radius: 19px;
+  font-size: var(--fs2);
+  border: none;
+  color: var(--tcw);
+  background-color: var(--bg2);
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: transparent;
+}
