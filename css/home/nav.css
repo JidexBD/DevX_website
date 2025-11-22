@@ -61,6 +61,9 @@ nav {
     gap: 2rem;
   }
 
+  .navlogo {
+    margin-left: 1rem;
+  }
   .nav-items {
     visibility: visible;
     font-size: var(--fs1);
