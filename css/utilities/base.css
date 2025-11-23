@@ -27,6 +27,5 @@ a {
 }
 
 li {
-  list-style: none;
   font-size: var(--fs3);
 }
