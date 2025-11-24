@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
+  margin-bottom: 6rem;
 }
 
 .community-top {
@@ -184,7 +185,6 @@
 
 /* growth */
 .community-bottom {
-  background-color: rgb(82, 6, 168);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -193,6 +193,9 @@
   gap: 4rem;
   border-radius: 24px;
   margin: 4rem auto;
+  background-image: url("/assets/growth.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .grow-text-box {
@@ -213,7 +216,7 @@
 .g-btn {
   border: 1px solid white;
   color: white;
-  padding: 1rem;
+  padding: 1rem 2.4rem;
   font-size: var(--fs1);
   border-radius: 1.5rem;
 }
@@ -235,12 +238,25 @@
 
 /* tab */
 @media (min-width: 768px) {
+  .community-bottom {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    border-radius: 24px;
+    margin: 4rem auto;
+    background-image: url("/assets/growth.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 /* 1024 */
 @media (min-width: 1024px) {
   .community-bottom {
-    background-color: rgb(82, 6, 168);
     padding: 6rem;
     display: flex;
     flex-direction: row;
@@ -249,6 +265,9 @@
     gap: 8rem;
     border-radius: 24px;
     margin: 4rem auto;
+    background-image: url("/assets/growth.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .grow-text-box {
