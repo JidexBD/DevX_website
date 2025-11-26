@@ -202,8 +202,8 @@
   color: var(--tcw);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .grow-header {
@@ -219,6 +219,7 @@
   padding: 1rem 2.4rem;
   font-size: var(--fs1);
   border-radius: 1.5rem;
+  text-align: center;
 }
 
 .g-btn:hover,
@@ -274,8 +275,8 @@
     color: var(--tcw);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 1rem;
   }
 
@@ -294,7 +295,6 @@
     padding: 1.5rem 2rem;
     font-size: var(--fs2);
     border-radius: 1.5rem;
-    margin-right: 18rem;
   }
 }
 /* 1440 */

@@ -1,0 +1,151 @@
+.mentor-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg1);
+}
+
+.mentor-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.ment-header {
+  text-align: center;
+  color: var(--hc);
+}
+
+.ment-text {
+  max-width: 2000px;
+  text-align: center;
+}
+
+/* card */
+.mentor-card-container {
+  display: grid;
+  gap: 4rem;
+}
+
+.ment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--tc);
+  border-radius: 8px;
+  padding: 2rem 7rem;
+  background-color: white;
+}
+
+.ment-name,
+.ment-role,
+.ment-text-c {
+  font-size: var(--fs2);
+  max-width: 300px;
+  text-align: center;
+}
+
+.ment-name {
+  color: var(--hc);
+}
+.ment-text-c {
+  max-width: 150px;
+}
+.ment-role {
+  color: var(--tcp);
+}
+
+/* img soial */
+
+.ment-profile {
+  border-radius: 50%;
+}
+.ment-social {
+  max-width: 40px;
+  color: var(--hc);
+  margin-left: 0.8rem;
+}
+
+/* tab */
+@media (min-width: 768px) {
+  .mentor-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+  }
+
+  /* card */
+  .mentor-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+
+/* 1024*/
+@media (min-width: 1024px) {
+  .mentor-section {
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg1);
+  }
+
+  .mentor-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 12rem;
+  }
+
+  .ment-text {
+    max-width: 700px;
+    text-align: center;
+  }
+
+  /* card */
+  .mentor-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+  }
+
+  .ment-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--tc);
+    border-radius: 8px;
+    padding: 2rem 6rem;
+    background-color: white;
+  }
+
+  .ment-name {
+    max-width: 300px;
+    letter-spacing: -1px;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 18000 */
+@media (min-width: 1800px) {
+}
