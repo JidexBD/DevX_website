@@ -31,16 +31,14 @@
     <header>
       <!-- navbar container -->
       <div id="mynav-bar"></div>
+
+      <section class="community-hero-section"></section>
     </header>
 
-    <script>
-      // load navbar.html into #navbar
-      fetch("/components/comp_html/navigation-bar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("mynav-bar").innerHTML = data;
-        })
-        .catch((err) => console.error("Failed to load navbar:", err));
-    </script>
+    <!-- footer -->
+    <div id="footer-container"></div>
+    <!-- Js -->
+    <script src="/components/comp_js/footer.js"></script>
+    <script src="/components/comp_js/navigation-bar.js"></script>
   </body>
 </html>
