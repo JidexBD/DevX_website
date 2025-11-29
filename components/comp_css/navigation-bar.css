@@ -1,0 +1,95 @@
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bgn);
+}
+
+.nav-items {
+  visibility: collapse;
+  font-family: var(--ff2);
+}
+
+.nav-items a,
+.nav-buttons a {
+  font-family: var(--ff2);
+}
+
+.nav-buttons {
+  visibility: collapse;
+  font-family: var(--ff2);
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-betweens;
+    align-items: center;
+    background-color: var(--bgn);
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .nav-items {
+    visibility: visible;
+    font-size: var(--fs1);
+    display: flex;
+    gap: 0.8rem;
+    margin-left: 1rem;
+  }
+
+  .nav-items a,
+  .nav-buttons a {
+    font-family: var(--ff2);
+  }
+
+  .nav-buttons {
+    visibility: collapse;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bgn);
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .navlogo {
+    margin-left: 1rem;
+  }
+  .nav-items {
+    visibility: visible;
+    font-size: var(--fs1);
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+  }
+
+  .nav-items a,
+  .nav-buttons a {
+    font-family: var(--ff2);
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 2rem;
+    visibility: visible;
+    font-size: var(--fs1);
+    margin-left: 2rem;
+  }
+
+  .mobile-buttons {
+    visibility: collapse;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}

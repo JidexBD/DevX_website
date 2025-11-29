@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Programs</title>
+    <title>Document</title>
 
     <!-- cdn -->
     <link
@@ -14,7 +14,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- font -->
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,21 +26,36 @@
     <link rel="stylesheet" href="/css/utilities/base.css" />
     <link rel="stylesheet" href="/css/utilities/utilities.css" />
     <link rel="stylesheet" href="/css/utilities/variables.css" />
+
+    <link rel="stylesheet" href="/components/comp_css/navigation-bar.css" />
   </head>
   <body>
-    <header>
-      <!-- navbar container -->
-      <div id="mynav-bar"></div>
-    </header>
+    <nav class="mynav-bar" id="mynav-bar">
+      <!-- logo -->
+      <div class="navlogo">
+        <a href="/html/home.html" target="_self">
+          <img src="/assets/DEVX.svg" alt="DEVX logo" class="logo-img"
+        /></a>
+      </div>
+      <!-- site features -->
+      <div class="nav-items">
+        <a href="#">Home</a>
+        <a href="/html/programs.html">Our Program</a>
+        <a href="/html/tpu.html">Why TPU</a>
+        <a href="/html/communnity.html">Community</a>
+        <a href="/html/contact.html">Contact Us</a
+        ><a href="/html/faq.html">FAQ</a>
+      </div>
 
-    <script>
-      // load navbar.html into #navbar
-      fetch("/components/comp_html/navigation-bar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("mynav-bar").innerHTML = data;
-        })
-        .catch((err) => console.error("Failed to load navbar:", err));
-    </script>
+      <!-- buttons -->
+      <div class="nav-buttons">
+        <a href="/html/signIn.html" class="nav-btn">Sign in</a>
+        <a href="/html/signUp.html " class="nav-btn-primary">Sign up</a>
+      </div>
+      <!-- hamburger -->
+      <div class="mobile-buttons">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+    </nav>
   </body>
 </html>
