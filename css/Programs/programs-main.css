@@ -1,0 +1,58 @@
+.programs-main {
+  background-color: var(--bg1);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.prog-main-heading {
+  text-align: center;
+  color: var(--hc);
+}
+
+.prog-main-text {
+  text-align: center;
+}
+
+/* grid */
+.main-grid-container {
+  display: grid;
+  gap: 2rem;
+}
+
+.program-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: start;
+  border: 1px solid var(--tc);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pb-header {
+  font-size: var(--fs3);
+  color: var(--hc);
+}
+.pb-text {
+  font-size: var(--fs2);
+}
+
+.pb-btn {
+  color: var(--hc);
+  font-size: var(--fs2);
+}
