@@ -1,0 +1,124 @@
+.programs-hero-section {
+  padding: 3rem 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prog-hero-header {
+  text-align: center;
+  color: var(--hc);
+  font-size: var(--fs4);
+  margin-bottom: 2rem;
+}
+
+.purple-text {
+  color: var(--tcp);
+}
+
+.prog-hero-text {
+  text-align: center;
+}
+
+.prog-hero-btn {
+  margin-top: 2rem;
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+  .programs-hero-section {
+    padding: 3rem 6rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prog-hero-header {
+    text-align: center;
+    color: var(--hc);
+    letter-spacing: -2px;
+    max-width: 1400px;
+  }
+
+  .prog-hero-text {
+    text-align: center;
+    font-size: var(--fs3);
+  }
+
+  .prog-hero-btn {
+    margin-top: 2rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+  .programs-hero-section {
+    padding: 5rem 7rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prog-hero-header {
+    text-align: center;
+    color: var(--hc);
+    font-size: var(--fs5);
+    line-height: 1.2;
+    letter-spacing: -2px;
+    max-width: 2000px;
+  }
+
+  .prog-hero-btn {
+    margin-top: 2rem;
+    padding: 2rem 2.4rem;
+  }
+
+  .prog-hero-btn:hover {
+    padding: 2rem 2.4rem;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+  .programs-hero-section {
+    padding: 5rem 6rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prog-hero-header {
+    text-align: center;
+    color: var(--hc);
+    font-size: var(--fs5);
+    line-height: 1.2;
+    letter-spacing: -2px;
+    max-width: 1500px;
+  }
+}
+/* 1800*/
+@media (min-width: 1800px) {
+  .programs-hero-section {
+    padding: 5rem 10rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prog-hero-header {
+    text-align: center;
+    color: var(--hc);
+    font-size: var(--fs5);
+    line-height: 1.2;
+    letter-spacing: -2px;
+    max-width: 1200px;
+  }
+}
