@@ -1,0 +1,128 @@
+.tpu-hero-section {
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tpu-stat {
+  color: var(--hc);
+  font-size: 11px;
+  background-color: var(--bgn);
+  border: 0.1rem solid var(--tc);
+  padding: 1rem 1.5rem;
+  border-radius: 14px;
+}
+
+.tpu-heading {
+  text-align: center;
+  color: var(--hc);
+}
+
+.tpu-span {
+  color: var(--tcp);
+}
+
+.tpu-sub-header {
+  font-size: var(--fs2);
+}
+
+.tpu-btn {
+  padding: 1.5rem 3rem;
+  color: white;
+  background-color: black;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.tpu-btn:active {
+  box-shadow: 0rem 2rem 3rem rgba(117, 35, 224, 0.212);
+  background-color: var(--bg2);
+}
+
+.tpu-inf {
+  display: flex;
+  gap: 2rem;
+}
+
+.inf-tag {
+  font-size: 8px;
+  max-width: 2000px;
+  color: var(--tc);
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+  .tpu-hero-section {
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .inf-tag {
+    font-size: 10px;
+    max-width: 2000px;
+    color: var(--tc);
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+  .tpu-hero-section {
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .tpu-heading {
+    font-size: var(--fs5);
+    text-align: center;
+    color: var(--hc);
+    max-width: 600px;
+  }
+  .tpu-sub-header {
+    font-size: var(--fs2);
+    text-align: center;
+  }
+
+  .inf-tag {
+    font-size: 12px;
+    max-width: 2000px;
+    color: var(--tc);
+  }
+
+  .tpu-btn {
+    padding: 2rem 5rem;
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .tpu-btn:active {
+    box-shadow: 0rem 2rem 3rem rgba(117, 35, 224, 0.212);
+    background-color: var(--bg2);
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800*/
+@media (min-width: 1800px) {
+  .tpu-sub-header {
+    font-size: var(--fs2);
+    text-align: center;
+    max-width: 900px;
+  }
+}
