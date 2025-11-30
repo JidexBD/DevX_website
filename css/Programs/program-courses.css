@@ -1,0 +1,149 @@
+.course-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.course-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 8rem;
+}
+
+.course-header {
+  color: var(--hc);
+}
+
+.course-text {
+  text-align: center;
+}
+
+.course-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.front-image {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.front-img {
+  max-width: 90%;
+}
+
+.front-contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.front-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.front-header {
+  text-align: center;
+  color: var(--hc);
+}
+
+.front-text,
+.front-content ol {
+  text-align: center;
+  list-style-type: none;
+}
+
+.front-content ol li {
+  font-size: var(--fs1);
+  margin-bottom: 1rem;
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+  .front-image {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .front-img {
+    max-width: 70%;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+  .front-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .front-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  .front-img {
+    max-width: 55%;
+  }
+
+  .front-header {
+    text-align: left;
+    color: var(--hc);
+    font-size: var(--fs2);
+    max-width: 350px;
+  }
+
+  .front-text {
+    text-align: left;
+    max-width: 350px;
+    font-size: var(--fs1);
+  }
+
+  .front-text,
+  .front-content ol {
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .front-content ol li {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .front-btn {
+    font-size: 10px;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800*/
+@media (min-width: 1800px) {
+}
