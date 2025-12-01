@@ -1,9 +1,143 @@
+.tpu-main-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.why-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 8rem;
+}
+
+.why-header {
+  color: var(--hc);
+}
+
+.why-text {
+  text-align: center;
+}
+
+.why-tpu-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.why-image {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-img {
+  max-width: 90%;
+}
+
+.why-contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.why-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.why-tpu-header {
+  text-align: center;
+  color: var(--hc);
+}
+
+.why-tpu-text,
+.why-content ol {
+  text-align: center;
+  list-style-type: none;
+}
+
+.why-content ol li {
+  font-size: var(--fs1);
+  margin-bottom: 1rem;
+}
+
 /*  tab*/
 @media (min-width: 768px) {
+  .why-image {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-img {
+    max-width: 70%;
+  }
 }
 
 /* 1024 */
 @media (min-width: 1024px) {
+  .why-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .why-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  .why-img {
+    max-width: 55%;
+  }
+
+  .why-tpu-header {
+    text-align: left;
+    color: var(--hc);
+    font-size: var(--fs2);
+    max-width: 350px;
+  }
+
+  .why-tpu-text {
+    text-align: left;
+    max-width: 350px;
+    font-size: var(--fs1);
+  }
+
+  .why-tpu-text,
+  .why-content ol {
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .why-content ol li {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .why-btn {
+    font-size: 10px;
+  }
 }
 
 /* 1440 */
