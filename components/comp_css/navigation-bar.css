@@ -40,6 +40,10 @@ nav {
     margin-left: 1rem;
   }
 
+  .nav-items a:hover,
+  .nav-items a:active {
+    color: var(--tcp);
+  }
   .nav-items a,
   .nav-buttons a {
     font-family: var(--ff2);
