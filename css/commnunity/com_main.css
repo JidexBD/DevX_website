@@ -1,0 +1,145 @@
+.community-main {
+  padding: 3rem;
+}
+
+.main-container {
+  background: radial-gradient(
+      circle at top left,
+      #4b1e8b 0%,
+      #2d0f57 20%,
+      transparent 60%
+    ),
+    linear-gradient(to bottom right, #0b0b0b 0%, #0d0e0b 60%, #cce206 100%);
+  padding: 2rem;
+  color: white;
+  border: none;
+  border-radius: 18px;
+}
+
+.com-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.dec-btn {
+  padding: 1rem 2rem;
+  font-size: 11px;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.cm-header {
+  text-align: center;
+}
+
+.cm-sub-header {
+  text-align: center;
+  font-size: var(--fs2);
+}
+
+/* grid */
+
+.main-grid {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  margin-top: 4rem;
+}
+
+.main-box {
+  padding: 4rem 2rem;
+  border: 0.1px solid rgba(255, 255, 255, 0.274);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mg-header {
+  font-size: var(--fs3);
+}
+
+.mg-text {
+  font-size: var(--fs2);
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+  .main-grid {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+  .community-main {
+    padding: 7rem 10rem;
+  }
+
+  .main-container {
+    background: radial-gradient(
+        circle at top left,
+        #4b1e8b 0%,
+        #2d0f57 20%,
+        transparent 60%
+      ),
+      linear-gradient(to bottom right, #0b0b0b 0%, #0d0e0b 60%, #cce206 100%);
+    padding: 8rem 14rem;
+    color: white;
+    border: none;
+    border-radius: 18px;
+  }
+
+  .main-grid {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+  }
+
+  .main-box {
+    padding: 4rem 2rem;
+    border: 0.1px solid rgba(255, 255, 255, 0.274);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800*/
+@media (min-width: 1800px) {
+  .community-main {
+    padding: 10rem 15rem;
+  }
+  .cm-sub-header {
+    max-width: 900px;
+  }
+  .mg-text {
+    font-size: var(--fs2);
+    max-width: 300px;
+  }
+}
+
+/* background: radial-gradient(
+    circle at top left,
+    #4b1e8b 0%,
+    #2d0f57 30%,
+    transparent 60%
+  ),
+  linear-gradient(to bottom right, #0b0b0b 0%, #1a1a1a 40%, #2b1d0f 100%); */
+
+/* rgb(36, 8, 8); */
