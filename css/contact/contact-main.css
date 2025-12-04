@@ -61,6 +61,11 @@
 
 /* 1024 */
 @media (min-width: 1024px) {
+  .mc-p {
+    font-size: var(--fs1);
+    text-align: left;
+    max-width: 500px;
+  }
 }
 
 /* 1440 */

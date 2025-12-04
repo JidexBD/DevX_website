@@ -1,0 +1,23 @@
+@import url("/css/FAQ/faq_hero.css");
+@import url("/css/FAQ/faq_main.css");
+
+.faq-header {
+  padding: 0rem 0.5rem;
+  margin-bottom: 4rem;
+}
+
+/*  tab*/
+@media (min-width: 768px) {
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800*/
+@media (min-width: 1800px) {
+}
