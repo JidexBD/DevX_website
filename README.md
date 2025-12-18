@@ -50,6 +50,8 @@
     ✔ Cross-browser Compatible
     
     Tested on Chrome, Firefox, Edge, and Safari.
+
+    [project link:](https://devxproject.netlify.app/)
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/31915668-8208-4f2f-a325-d59982414a85" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afaa182c-cc56-4618-8c40-a36ad99cb25a" />
@@ -75,4 +77,5 @@
 
     
         
+
 
