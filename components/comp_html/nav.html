@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nav</title>
 
     <!-- cdn -->
     <link
@@ -12,6 +12,12 @@
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+
+    <!-- google icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
 
     <!-- fonts -->
@@ -30,6 +36,53 @@
     <link rel="stylesheet" href="/components/comp_css/nav.css" />
   </head>
   <body>
+    <nav class="mynav-bar">
+      <!-- logo -->
+      <div class="navlogo">
+        <a href="/html/home.html">
+          <img src="/assets/DEVX.svg" class="logo-img" />
+        </a>
+      </div>
+
+      <!-- desktop links -->
+      <div class="nav-items">
+        <a href="/html/home.html">Home</a>
+        <a href="/html/programs.html">Our Program</a>
+        <a href="/html/tpu.html">Why TPU</a>
+        <a href="/html/community.html">Community</a>
+        <a href="/html/contact.html">Contact Us</a>
+        <a href="/html/faq.html">FAQ</a>
+      </div>
+
+      <!-- buttons -->
+      <div class="nav-buttons">
+        <a href="/html/signIn.html" class="nav-btn">Sign in</a>
+        <a href="/html/signUp.html" class="nav-btn-primary">Sign up</a>
+      </div>
+
+      <!-- hamburger -->
+      <button class="mobile-buttons">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- MOBILE SIDEBAR -->
+    <div class="mobile-sidebar">
+      <button class="close-sidebar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <a href="/html/home.html">Home</a>
+      <a href="/html/programs.html">Our Program</a>
+      <a href="/html/tpu.html">Why TPU</a>
+      <a href="/html/community.html">Community</a>
+      <a href="/html/contact.html">Contact Us</a>
+      <a href="/html/faq.html">FAQ</a>
+
+      <a href="/html/signIn.html" class="nav-btn">Sign in</a>
+      <a href="/html/signUp.html" class="nav-btn-primary">Sign up</a>
+    </div>
+
     <script src="/components/comp_js/nav.js"></script>
   </body>
 </html>
